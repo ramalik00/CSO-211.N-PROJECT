@@ -19,7 +19,7 @@ $ pip3 install -r requirements.txt
 
 5. Also run the following command as well
 ```
-$ pip3 install opencv-contrib-python==4.2.0
+$ pip3 install opencv-contrib-python
 $ python3 -m pip install kivymd
 ```
 
