@@ -15,10 +15,12 @@ $ mkvirtualenv test
 ```
 $ pip3 install -r requirements.txt
 ```
+4. Refer to this [link](https://kivy.org/doc/stable/installation/installation-linux.html) for installing kivy 
 
-4. Also run the following command as well
+5. Also run the following command as well
 ```
-$ pip3 install opencv-contrib-python==4.2.0
+$ pip3 install opencv-contrib-python
+$ python3 -m pip install kivymd
 ```
 
 ## Team
