@@ -101,7 +101,7 @@ def mask_detect():
                                 
                         color=(147,20,255)
                         
-                        if label=="Mask":
+                        if label=="MASK":
                                 color=(235,206,135)
 
                                 
