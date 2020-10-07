@@ -1,4 +1,13 @@
 # CSO-211.N-PROJECT(Face-Mask-Detector)
+  This is project under CSO 211(COMPUTER SYSTEM ORGANIZATION) aimed at using Computer Vision to detect face mask in real time.The detector created is pretty   accurate, and since we used the MobileNetV2 architecture, it’s also computationally efficient and can be used in embeded systems.This project can be integrated with embedded systems for application in airports, railway stations, offices, schools, and public places to ensure that public safety guidelines are followed.
+
+## Project Structure
+  #### The structure of the project was as follows -
+  1. The project uses caffe based implementation for face and gender detection . The gender detection model is work by Gil Levi and Tal Hassner. Link to the [research paper](https://talhassner.github.io/home/publication/2015_CVPR)
+  2. A model was trained on the dataset in the links below to sucessfully detect mask on the face using Keras 
+  3. The project was then deployed using KivyMD for simple desktop based use .
+  4. To improve the fps we have used a custom based I/O technique using threading and added FPS count implementation to calculate fps.
+  
 
 ## 🚀&nbsp; Installation
 1. Clone the repo
@@ -6,7 +15,7 @@
 $ git clone https://github.com/ramalik00/CSO-211.N-PROJECT
 ```
 
-2. Change your directory to the cloned repo and create a Python virtual environment named 'test' or anything you wish
+2. Change your directory to the cloned repo and create a Python virtual environment named 'test' or anything you wish. 
 ```
 $ mkvirtualenv test
 ```
