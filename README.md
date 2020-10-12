@@ -34,10 +34,9 @@ $ python3 -m pip install kivymd
 ## Running the project on your System
    1. First install all the dependencies listed in the installation part . 
    2. Now simply use the following command
-   
-    ```
-    $ python3 app.py
-    ```
+   ```
+   $ python3 app.py
+   ```
 
 ## Team
 - Rahul Malik [@ramalik00](https://github.com/ramalik00)
