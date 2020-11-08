@@ -37,7 +37,7 @@ $ python3 -m pip install kivymd
    ```
    $ python3 app.py  
    ```
-## FRAME RATE PER SECOND 
+## Frame Rate Per Second 
    1. To analyze frames rate per second run the following command
    ```
    $ python3 Fps_Analysis.py  
