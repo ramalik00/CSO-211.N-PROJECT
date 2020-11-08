@@ -44,7 +44,10 @@ def detect_mask(frame,face_detect,mask_detect,gender_detect):
                         face_Blob = cv2.dnn.blobFromImage(face,1.0,(227, 227),(78.4263377603, 87.7689143744, 114.895847746),swapRB=False)
                         gender_detect.setInput(face_Blob)
                         pred=gender_detect.forward()
-                        i=pred[0].argmax()
+                        if pred[0][0]>0.90:
+                                i=0
+                        else :
+                                i=1
                         gender=gender_list[i]
                         gender_face.append(gender)
                         
