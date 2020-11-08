@@ -15,7 +15,7 @@
 $ git clone https://github.com/ramalik00/CSO-211.N-PROJECT
 ```
 
-2. Change your directory to the cloned repo and create a Python virtual environment named 'test' or anything you wish. 
+2. Change your directory to the cloned repo and create a Python virtual environment named 'test' or anything you wish. Prefer this option if you want to directly test it using the terminal otherwise install all the dependencies directly on you machine 
 ```
 $ mkvirtualenv test
 ```
@@ -31,6 +31,12 @@ $ pip3 install -r requirements.txt
 $ pip3 install opencv-contrib-python
 $ python3 -m pip install kivymd
 ```
+## Running the project on your System
+   1. First install all the dependencies listed in the installation part . 
+   2. Now simply use the following command
+   ```
+   $ python3 app.py
+   ```
 
 ## Team
 - Rahul Malik [@ramalik00](https://github.com/ramalik00)
