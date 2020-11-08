@@ -35,7 +35,12 @@ $ python3 -m pip install kivymd
    1. First install all the dependencies listed in the installation part . 
    2. Now simply use the following command
    ```
-   $ python3 app.py
+   $ python3 app.py  
+   ```
+## FRAME RATE PER SECOND 
+   1. To analyze frames rate per second run the following command
+   ```
+   $ python3 Fps_Analysis.py  
    ```
 
 ## Team
