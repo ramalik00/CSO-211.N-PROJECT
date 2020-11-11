@@ -86,7 +86,7 @@ def mask_detect():
         #Using our customized fast I/O Method instead of Opencv's VideoCapture() method
         cap=FASTIO(0).start()
         #loop over the frames from the input video
-        while True:
+        while 1:
                 frame=cap.read()
                 frame=imutils.resize(frame, width=900)
                 #Performing mask detection on the fiven frame
