@@ -44,7 +44,7 @@ $ python3 -m pip install kivymd
    ```
 ## Training 
    1. If you want to train the model using your own dataset run the following command
-     ```
+   ```
    $ python3 train.py --datatset <name of the dataset folder>  
    ```
 ## Team
