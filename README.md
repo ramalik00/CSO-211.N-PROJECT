@@ -42,7 +42,11 @@ $ python3 -m pip install kivymd
    ```
    $ python3 Fps_Analysis.py  
    ```
-
+## Training 
+   1. If you want to train the model using your own dataset run the following command
+     ```
+   $ python3 train.py --datatset <name of the dataset folder>  
+   ```
 ## Team
 - Rahul Malik [@ramalik00](https://github.com/ramalik00)
 - Saatvik Sharma [@saatvik10](https://github.com/saatvik10)
