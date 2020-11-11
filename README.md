@@ -1,5 +1,7 @@
 # CSO-211.N-PROJECT(Face-Mask-Detector)
   This is project under CSO 211(COMPUTER SYSTEM ORGANIZATION) aimed at using Computer Vision to detect face mask in real time.The detector created is pretty   accurate, and since we used the MobileNetV2 architecture, it’s also computationally efficient and can be used in embeded systems.This project can be integrated with embedded systems for application in airports, railway stations, offices, schools, and public places to ensure that public safety guidelines are followed.
+
+<br> <img height="300" width="170" src="https://github.com/ramalik00/CSO-211.N-PROJECT/blob/master/GIF/mask.gif"><br>
   
 
 
