@@ -57,4 +57,4 @@ $ python3 -m pip install kivymd
 - Shivansh Sood [@godfather2603](https://github.com/godfather2603)
 - Naman Arora [@Naman-Arora23](https://github.com/Naman-Arora23)
 
-> **Feel free to in contribute ✨**.
+> **Feel free to contribute ✨**.
