@@ -51,10 +51,5 @@ $ python3 -m pip install kivymd
    ```
    $ python3 train.py --datatset <name of the dataset folder>  
    ```
-## Team
-- Rahul Malik [@ramalik00](https://github.com/ramalik00)
-- Saatvik Sharma [@saatvik10](https://github.com/saatvik10)
-- Shivansh Sood [@godfather2603](https://github.com/godfather2603)
-- Naman Arora [@Naman-Arora23](https://github.com/Naman-Arora23)
 
 > **Feel free to contribute ✨**.
