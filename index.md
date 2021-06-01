@@ -1,37 +1,55 @@
-## Welcome to GitHub Pages
+# CSO-211.N-PROJECT(Face-Mask-Detector)
+  This is project under CSO 211(COMPUTER SYSTEM ORGANIZATION) aimed at using Computer Vision to detect face mask in real time.The detector created is pretty   accurate, and since we used the MobileNetV2 architecture, it’s also computationally efficient and can be used in embeded systems.This project can be integrated with embedded systems for application in airports, railway stations, offices, schools, and public places to ensure that public safety guidelines are followed.
 
-You can use the [editor on GitHub](https://github.com/ramalik00/FACE-MASK-DETECTION-CSO-211.N-PROJECT-/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<br> <img height="300" width="170" src="https://github.com/ramalik00/CSO-211.N-PROJECT/blob/master/GIF/mask.gif"><br>
+  
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+## Project Structure
+  #### The structure of the project was as follows -
+  1. The project uses caffe based implementation for face and gender detection . The gender detection model is work by Gil Levi and Tal Hassner. Link to the [research paper](https://talhassner.github.io/home/publication/2015_CVPR)
+  2. A model was trained on the dataset in the links below to sucessfully detect mask on the face using Keras 
+  3. The project was then deployed using KivyMD for simple desktop based use .
+  4. To improve the fps we have used a custom based I/O technique using threading and added FPS count implementation to calculate fps.
+  
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+## 🚀&nbsp; Installation
+1. Clone the repo
+```
+$ git clone https://github.com/ramalik00/CSO-211.N-PROJECT
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+2. Change your directory to the cloned repo and create a Python virtual environment named 'test' or anything you wish. Prefer this option if you want to directly test it using the terminal otherwise install all the dependencies directly on you machine 
+```
+$ mkvirtualenv test
+```
 
-### Jekyll Themes
+3. Now, run the following command in your Terminal/Command Prompt to install the libraries required
+```
+$ pip3 install -r requirements.txt
+```
+4. Refer to this [link](https://kivy.org/doc/stable/installation/installation-linux.html) for installing kivy 
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ramalik00/FACE-MASK-DETECTION-CSO-211.N-PROJECT-/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+5. Also run the following command as well
+```
+$ pip3 install opencv-contrib-python
+$ python3 -m pip install kivymd
+```
+## Running the project on your System
+   1. First install all the dependencies listed in the installation part . 
+   2. Now simply use the following command
+   ```
+   $ python3 app.py  
+   ```
+## Frame Rate Per Second 
+   1. To analyze frames rate per second run the following command
+   ```
+   $ python3 Fps_Analysis.py  
+   ```
+## Training 
+   1. If you want to train the model using your own dataset run the following command
+   ```
+   $ python3 train.py --datatset <name of the dataset folder>  
+   ```
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+> **Feel free to contribute ✨**.
